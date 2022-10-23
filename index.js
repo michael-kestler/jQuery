@@ -1,1 +1,1 @@
-alert("you're script is linked");
+$("h1").css("color", "red");

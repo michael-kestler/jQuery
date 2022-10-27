@@ -24,3 +24,14 @@ $("button").click(function() {
 });
 
 //do not need to do the for loop because jquery will go through all of the buttons
+
+
+//this changes the text in the h1 based on key press
+$(document).keypress(function(event) {
+  $("h1").text(event.key);
+});
+
+//this changes color of h1 when you mouseover it
+$("h1").on("mouseover", function(){
+  $("h1").css("color", "purple");
+});
